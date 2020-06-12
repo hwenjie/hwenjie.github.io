@@ -76,7 +76,7 @@
       admin: ['hwenjie'],
       // facebook-like distraction free mode
       distractionFreeMode: false, 
-      id: md5(location.href.trimEnd('{{theme.gitalk.hreftrimend}}'))
+      id: decodeURI(window.location.pathname)
 	  })
   </script>
 </body>
