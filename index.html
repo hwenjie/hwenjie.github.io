@@ -18,5 +18,19 @@
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+	<script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+	  const gitalk = new Gitalk({
+		clientID: '475251da17a831ec480f',
+		clientSecret: '272a1e65c846a0684a8d027099482705878f4f9c',
+		repo: 'hwenjie.github.io',
+		owner: 'hwenjie',
+		admin: ['hwenjie'],
+		// facebook-like distraction free mode
+		distractionFreeMode: false
+	  })
+  </script>
 </body>
 </html>
