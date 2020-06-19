@@ -29,55 +29,5 @@
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script>
-     String.prototype.trimEnd = function(regStr){  
-            var result = this;
-            if(regStr==undefined||regStr==null||regStr==""){    
-                return result;
-            }
-            var array = regStr.split(',');
-            if(array.length > 0){
-                var c = array.shift();
-                var str= this;
-                var i = str.length;  
-                var rg = new RegExp(c);
-                var matchArr = str.match(rg);
-                if(matchArr != undefined && matchArr != null && matchArr.length > 0)
-                {
-                  var matchStr = matchArr[0].replace(/\\/g, "\\\\").replace(/\*/g, "\\*")
-                                            .replace(/\+/g, "\\+").replace(/\|/g, "\\|")
-                                            .replace(/\{/g, "\\{").replace(/\}/g, "\\}")
-                                            .replace(/\(/g, "\\(").replace(/\)/g, "\\)")
-                                            .replace(/\^/g, "\\^").replace(/\$/g, "\\$")
-                                            .replace(/\[/g, "\\[").replace(/\]/g, "\\]")
-                                            .replace(/\?/g, "\\?").replace(/\,/g, "\\,")
-                                            .replace(/\./g, "\\.").replace(/\&/g, "\\&");
-                  matchStr = matchStr + '$';
-                  result = str.replace(new RegExp(matchStr), "");
-                }
-                if(array.length > 0){
-                    return result.trimEnd(array.join())
-                }
-                else{
-                    return result; 
-                } 
-            } 
-        };
-
-	  const gitalk = new Gitalk({
-      clientID: '475251da17a831ec480f',
-      clientSecret: '272a1e65c846a0684a8d027099482705878f4f9c',
-      repo: 'hwenjie.github.io',
-      owner: 'hwenjie',
-      admin: ['hwenjie'],
-      // facebook-like distraction free mode
-      distractionFreeMode: false, 
-      id: decodeURI(window.location.pathname)
-	  })
-  </script>
 </body>
 </html>
