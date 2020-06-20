@@ -5,6 +5,8 @@
 
 ![avatar](./images/WX20200620-010204@2x.png ':size=375x690')
 
+[下载地址](https://github.com/hwenjie/weapp-sx-components)
+
 ## 目录结构
 ```
 login
