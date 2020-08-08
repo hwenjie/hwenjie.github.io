@@ -8,7 +8,7 @@ dockerfile是用来构建镜像的文件
 3、docker run 运行镜像  
 4、docker push 发布镜像
 
-![avatar](./images/WX20200809-014156@2x.png ':size=400')
+![avatar](./images/WX20200809-014156@2x.jpg ':size=400')
 
 
 ## DockerFile的指令
@@ -29,7 +29,7 @@ ONBUILD         # 被继承时触发
 COPY            # 类似ADD 将文件拷贝到镜像中
 ENV             # 构建时设置环境变量
 ```
-![avatar](./images/WX20200809-014401@2x.png ':size=600')
+![avatar](./images/WX20200809-014401@2x.jpg ':size=600')
 
 ## 实例
 
