@@ -2,30 +2,16 @@
 # yarn lockfile v1
 
 
-clipboard@^2.0.0:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.6.tgz#52921296eec0fdf77ead1749421b21c968647376"
-  integrity sha512-g5zbiixBRk/wyKakSwCKd7vQXDjFnAMGHoEyBogG/bw9kTD9GvdAvaoRR1ALcEzt3pVKxZR0pViekPMIS0QyGg==
+docsify@^4.12.0:
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/docsify/-/docsify-4.12.0.tgz#ac08a5b4a17bd80413b22e5201e35678cdd7e57f"
+  integrity sha512-oLr48dLeJ8sTVQfL8HLFqd2sPPG8DNAOvYAXXJQr/+/K9uC2KDhoeu+GGj5U2uFGR5czF3oLvqNBxhEElg1wGw==
   dependencies:
-    good-listener "^1.2.2"
-    select "^1.1.2"
-    tiny-emitter "^2.0.0"
-
-delegate@^3.1.2:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/delegate/-/delegate-3.2.0.tgz#b66b71c3158522e8ab5744f720d8ca0c2af59166"
-  integrity sha512-IofjkYBZaZivn0V8nnsMJGBr4jVLxHDheKSW88PyxS5QC4Vo9ZbZVvhzlSxY87fVq3STR6r+4cGepyHkcWOQSw==
-
-docsify@^4.11.6:
-  version "4.11.6"
-  resolved "https://registry.yarnpkg.com/docsify/-/docsify-4.11.6.tgz#60334a398cf8b3abd7258863a9764f2518458684"
-  integrity sha512-6h3hB2Ni7gpOeu1fl1sDOmufuplIDmeFHsps17Qbg9VOS3h2tJ63FiW2w5oAydGyzaLrqu58FV7Mg4b6p0z9mg==
-  dependencies:
-    dompurify "^2.0.8"
-    marked "^1.1.1"
+    dompurify "^2.2.6"
+    marked "^1.2.9"
     medium-zoom "^1.0.6"
     opencollective-postinstall "^2.0.2"
-    prismjs "^1.19.0"
+    prismjs "^1.23.0"
     strip-indent "^3.0.0"
     tinydate "^1.3.0"
     tweezer.js "^1.4.0"
@@ -35,10 +21,10 @@ dom-walk@^0.1.0:
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.2.tgz#0c548bef048f4d1f2a97249002236060daa3fd84"
   integrity sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==
 
-dompurify@^2.0.8:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.6.tgz#54945dc5c0b45ce5ae228705777e8e59d7b2edc4"
-  integrity sha512-7b7ZArhhH0SP6W2R9cqK6RjaU82FZ2UPM7RO8qN1b1wyvC/NY1FNWcX1Pu00fFOAnzEORtwXe4bPaClg6pUybQ==
+dompurify@^2.2.6:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.2.9.tgz#4b42e244238032d9286a0d2c87b51313581d9624"
+  integrity sha512-+9MqacuigMIZ+1+EwoEltogyWGFTJZWU3258Rupxs+2CGs4H914G9er6pZbsme/bvb5L67o2rade9n21e4RW/w==
 
 global@^4.4.0:
   version "4.4.0"
@@ -48,17 +34,10 @@ global@^4.4.0:
     min-document "^2.19.0"
     process "^0.11.10"
 
-good-listener@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
-  integrity sha1-1TswzfkxPf+33JoNR3CWqm0UXFA=
-  dependencies:
-    delegate "^3.1.2"
-
-marked@^1.1.1:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.8.tgz#5008ece15cfa43e653e85845f3525af4beb6bdd4"
-  integrity sha512-lzmFjGnzWHkmbk85q/ILZjFoHHJIQGF+SxGEfIdGk/XhiTPhqGs37gbru6Kkd48diJnEyYwnG67nru0Z2gQtuQ==
+marked@^1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.9.tgz#53786f8b05d4c01a2a5a76b7d1ec9943d29d72dc"
+  integrity sha512-H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==
 
 medium-zoom@^1.0.6:
   version "1.0.6"
@@ -82,22 +61,15 @@ opencollective-postinstall@^2.0.2:
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
   integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
 
-prismjs@^1.19.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
-  integrity sha512-c29LVsqOaLbBHuIbsTxaKENh1N2EQBOHaWv7gkHN4dgRbxSREqDnDbtFJYdpPauS4YCplMSNCABQ6Eeor69bAA==
-  optionalDependencies:
-    clipboard "^2.0.0"
+prismjs@^1.23.0:
+  version "1.24.1"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.24.1.tgz#c4d7895c4d6500289482fa8936d9cdd192684036"
+  integrity sha512-mNPsedLuk90RVJioIky8ANZEwYm5w9LcvCXrxHlwf4fNVSn8jEipMybMkWUyyF0JhnC+C4VcOVSBuHRKs1L5Ow==
 
 process@^0.11.10:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
-
-select@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/select/-/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
-  integrity sha1-DnNQrN7ICxEIUoeG7B1EGNEbOW0=
 
 strip-indent@^3.0.0:
   version "3.0.0"
@@ -105,11 +77,6 @@ strip-indent@^3.0.0:
   integrity sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==
   dependencies:
     min-indent "^1.0.0"
-
-tiny-emitter@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
-  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 tinydate@^1.3.0:
   version "1.3.0"
