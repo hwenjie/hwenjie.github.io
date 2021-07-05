@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "docsify": "^4.11.6",
+    "global": "^4.4.0"
+  }
+}
